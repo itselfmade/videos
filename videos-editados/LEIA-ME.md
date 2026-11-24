@@ -42,7 +42,7 @@ Junta as entrevistas sobre "como é que o associativismo impacta os jovens" num 
 
 ---
 
-## 12_Pergunta_que_nunca_te_fizeram_completo.mp4 (2 min 41 s)
+## 12_Pergunta_que_nunca_te_fizeram_completo.mp4 (2 min 21 s)
 Cadeia completa "qual é a pergunta que nunca te fizeram?" — a pergunta de cada pessoa é a que a seguinte responde. 8 vídeos, ordenados pelas perguntas:
 
 | Ordem | Pessoa | O que acontece |
@@ -53,7 +53,7 @@ Cadeia completa "qual é a pergunta que nunca te fizeram?" — a pergunta de cad
 | 4 | Mulher de blazer azul | Responde a essa pergunta ("como motivamos jovens…") |
 | 5 | Mesma mulher | Pergunta que nunca lhe fizeram → "O que gostaria de ver feito nos próximos 5 anos no movimento associativo?" |
 | 6 | Homem de boné verde | Responde à pergunta anterior |
-| 7 | Mesmo homem | Pergunta que nunca lhe fizeram → "Será que ser jovem vai até aos 30 ou 35?" |
-| 8 | Mulher de camisola preta | Responde "O que é ser jovem?" (não lhe voltam a perguntar a pergunta → **última**) |
+| 7 | Mesmo homem | Pergunta que nunca lhe fizeram → "Será que ser jovem vai até aos 30 ou 35?" (fica só a pergunta, o resto que ele diz foi cortado) |
+| 8 | Mulher de camisola preta | Responde "O que é ser jovem?" (sem silêncios nem hesitações) (não lhe voltam a perguntar a pergunta → **última**) |
 
 Mesmo estilo: legendas com a palavra dita a vermelho, áudio limpo (RNNoise), imagem estabilizada, música baixa, níveis de voz igualados. Originais dos 3 vídeos novos em `videos-brutos/`.
