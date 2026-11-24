@@ -1,14 +1,13 @@
 # Vídeos editados
 
-## 25_Fernando_Ingles_Reel.mp4 (1 min 17 s, 1080×1920, Instagram Reels)
-Fonte: `videos-limpos/25_Entrevista_Fernando_Ingles.mp4` (2 min 20 s).
+## 25_Fernando_Ingles_Reel.mp4 (1 min 07 s, 1080×1920, Instagram Reels)
+Fonte: `videos-limpos/25_Entrevista_Fernando_Ingles.mp4` (2 min 20 s), com áudio limpo e imagem estabilizada.
 
-- **Cortes:** 10 segmentos; o último deixa o Fernando acabar a frase ("…voice in Europe all the days") e termina em "Obrigado, Fernando", com imagem parada nele no último segundo e **0,5 s de silêncio** no fim (música já apagada); tirei hesitações, repetições, o "Okay, not to take your time…" e o "Last question". Mantém intro, as 3 perguntas e as respostas principais.
-- **Zoom:** alternância 100 % / 112 % nos segmentos do Fernando para esconder os cortes secos.
-- **Legendas (inglês):** gravadas no vídeo, 2–4 palavras por cartão, brancas com contorno; a palavra que está a ser dita fica a vermelho. Dentro da zona central (fora da interface do Reels). Correções: Fernand→Fernando, Clubs→Associations, euro deputies→MEPs.
-- **Nome (inglês, à esquerda):** "Fernando · President of FNAJ" no 1.º aparecimento.
-- **Música:** `musica/ambiente_calma_original.m4a`, ~21 dB abaixo da voz, com fade in/out.
-- **Áudio:** filtro de graves, compressão suave, −15 LUFS.
+- **Abertura:** o entrevistador diz só "Hello guys, I'm here with…" e corta-se logo para a pergunta e para o Fernando; o cartão "Fernando · President of FNAJ" identifica-o. (O Fernando nunca diz "I'm the President" na gravação.)
+- **Nome nas perguntas:** cortado de todas ("Fernando, can you tell us…" passa a "Can you tell us…"). O final fica em "Thank you" sem "Fernando".
+- **Erros e hesitações cortados:** o engasgo "in all, among all the country", pausas e hesitações na resposta sobre desinformação, "Um" do entrevistador, silêncios (pausas > 0,3 s) e as frases confusas ("that's why we make that sense…", "we do and we developed…").
+- **Legendas:** gravadas no vídeo, palavra dita a vermelho, na zona central. Correções: Clubs → Associations, Eurodeputies → MEPs.
+- **Música** baixa, áudio a −15 LUFS, **0,5 s de silêncio no fim** (imagem do Fernando parada no último segundo).
 
 ---
 
