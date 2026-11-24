@@ -42,15 +42,18 @@ Junta as entrevistas sobre "como é que o associativismo impacta os jovens" num 
 
 ---
 
-## 12_Pergunta_que_nunca_te_fizeram.mp4 (1 min 52 s)
-Cadeia "qual é a pergunta que nunca te fizeram?" — a pergunta de cada pessoa é a pergunta que a seguinte responde. Fontes: os 5 vídeos de Tele Alex (02 a 06), reordenados pela cadeia:
+## 12_Pergunta_que_nunca_te_fizeram_completo.mp4 (3 min 17 s)
+Cadeia completa "qual é a pergunta que nunca te fizeram?" — a pergunta de cada pessoa é a que a seguinte responde. 8 vídeos, ordenados pelas perguntas:
 
-| Ordem | Fonte | Quem | O que acontece |
-|---|---|---|---|
-| 1 | Tele Alex 02 | Pessoa 1 (blazer azul) | Pergunta de abertura: "Como é que motivamos jovens…?" (não responde a nenhuma pergunta anterior → **primeira**) |
-| 2 | Tele Alex 03 | Pessoa 1 | "Qual é a pergunta que nunca te fizeram?" → pergunta: "O que gostaria de ver feito nos próximos 5 anos no movimento associativo juvenil?" |
-| 3 | Tele Alex 06 | Pessoa 2 (boné verde) | Responde à pergunta da Pessoa 1 |
-| 4 | Tele Alex 05 | Pessoa 2 | "Qual é a pergunta que nunca te fizeram?" → pergunta: "Será que ser jovem vai até aos 30 ou 35?" |
-| 5 | Tele Alex 04 | Pessoa 3 (preto) | Responde "O que é ser jovem?" (não lhe voltam a perguntar a pergunta → **última**) |
+| Ordem | Pessoa | O que acontece |
+|---|---|---|
+| 1 | **Pedro** (professor) | Perguntam-lhe a "pergunta que nunca te fizeram" sem ter respondido a nenhuma pergunta anterior (**primeiro**) → pergunta: "Qual é o papel que tu queres ter na vida dos outros?" |
+| 2 | Mulher de cabelo ruivo | Responde "qual deve ser o teu papel na tua comunidade?" |
+| 3 | Mesma mulher | "Qual é a pergunta que nunca te fizeram?" → "Como é que nós podemos aproximar os jovens que não conhecem nem participam no movimento associativo?" |
+| 4 | Mulher de blazer azul | Responde a essa pergunta ("como motivamos jovens…") |
+| 5 | Mesma mulher | Pergunta que nunca lhe fizeram → "O que gostaria de ver feito nos próximos 5 anos no movimento associativo?" |
+| 6 | Homem de boné verde | Responde à pergunta anterior |
+| 7 | Mesmo homem | Pergunta que nunca lhe fizeram → "Será que ser jovem vai até aos 30 ou 35?" |
+| 8 | Mulher de camisola preta | Responde "O que é ser jovem?" (não lhe voltam a perguntar a pergunta → **última**) |
 
-Mesmo estilo: legendas com a palavra dita a vermelho, áudio limpo (RNNoise) e imagem estabilizada, música baixa, níveis de voz igualados.
+Mesmo estilo: legendas com a palavra dita a vermelho, áudio limpo (RNNoise), imagem estabilizada, música baixa, níveis de voz igualados. Originais dos 3 vídeos novos em `videos-brutos/`.
