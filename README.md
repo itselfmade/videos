@@ -1,6 +1,10 @@
-# Selfmade — Edição de vídeo
+# Selfmade — Edição de vídeo (ENAJ 22)
 
-- `videos-upload/` — vídeos originais (upload da equipa). Git LFS, máx. 2 GB por ficheiro.
-- `videos-feitos/` — vídeos processados (cortes numerados, ex.: `nome_01.mp4`).
+| Pasta | Conteúdo |
+|---|---|
+| `videos-brutos/` | Originais tal como saíram do telemóvel (Tele Pedro, Tele Alex). O original da câmara (`AVCHD.mp4`, 2,53 GB) excede o limite de 2 GB do Git LFS e está só no Drive. |
+| `videos-limpos/` | Cada gravação separada pelos capítulos reais do original, na vertical 9:16, sem edição. Ver `LEIA-ME.md` na pasta. |
+| `videos-editados/` | Vídeos prontos a publicar (cortes, legendas, música). |
+| `musica/` | Música de fundo, gerada de raiz (sem direitos de autor). |
 
-Os ficheiros de vídeo usam Git LFS (ver `.gitattributes`).
+Os ficheiros de vídeo usam Git LFS (`.gitattributes`).
