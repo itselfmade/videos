@@ -27,3 +27,10 @@ Mesmo estilo do reel do Fernando em inglês: cortes sem hesitações nem erros, 
 | 08–10_Entrevista_Solta | Respostas curtas de Tele Alex (480p originais, ampliadas) | 02, 04, 06 de Tele Alex |
 
 Ficaram de fora, por terem a pergunta "qual é a pergunta que nunca te fizeram": Tele Alex 03 e 05.
+
+---
+
+## Melhoria de áudio e imagem (aplicada a todos os vídeos acima)
+- **Ruído de fundo:** filtro RNNoise (modelo `cb.rnnn`, 90 % do efeito) sobre o áudio original. Mede-se cerca de −9 dB de ruído e a relação voz/ruído sobe ~5 dB, mantendo o timbre da voz (centro tonal 2262 → 2283 Hz). Vozes de outras pessoas ao fundo não são removidas.
+- **Estabilização:** `vidstab` (só translação e rotação, sem deformar), suavizado de 15 fotogramas, 4 % de zoom. O solavanco entre fotogramas desce ~60 %.
+- **Música:** ligeiramente mais presente (≈ −19 dB abaixo da voz), com fade in/out.
