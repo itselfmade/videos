@@ -42,12 +42,12 @@ Junta as entrevistas sobre "como é que o associativismo impacta os jovens" num 
 
 ---
 
-## 12_Pergunta_que_nunca_te_fizeram_completo.mp4 (3 min 17 s)
+## 12_Pergunta_que_nunca_te_fizeram_completo.mp4 (2 min 41 s)
 Cadeia completa "qual é a pergunta que nunca te fizeram?" — a pergunta de cada pessoa é a que a seguinte responde. 8 vídeos, ordenados pelas perguntas:
 
 | Ordem | Pessoa | O que acontece |
 |---|---|---|
-| 1 | **Pedro** (professor) | Perguntam-lhe a "pergunta que nunca te fizeram" sem ter respondido a nenhuma pergunta anterior (**primeiro**) → pergunta: "Qual é o papel que tu queres ter na vida dos outros?" |
+| 1 | **Pedro** (professor) — só a pergunta dele, cortei o resto do que diz | Perguntam-lhe a "pergunta que nunca te fizeram" sem ter respondido a nenhuma pergunta anterior (**primeiro**) → pergunta: "Qual é o papel que tu queres ter na vida dos outros?" |
 | 2 | Mulher de cabelo ruivo | Responde "qual deve ser o teu papel na tua comunidade?" |
 | 3 | Mesma mulher | "Qual é a pergunta que nunca te fizeram?" → "Como é que nós podemos aproximar os jovens que não conhecem nem participam no movimento associativo?" |
 | 4 | Mulher de blazer azul | Responde a essa pergunta ("como motivamos jovens…") |
