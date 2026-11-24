@@ -39,3 +39,18 @@ Ficaram de fora, por terem a pergunta "qual é a pergunta que nunca te fizeram":
 
 ## 11_Carina_e_Claudia.mp4 (1 min 00 s)
 Junta as duas entrevistas sobre "como é que o associativismo impacta os jovens" num só vídeo: título de abertura, pergunta uma vez, resposta da Cláudia (pessoal e cívico) e a da Carina (visão mais ampla, fecha em "partilhar também a nossa voz"). Níveis de voz igualados entre as duas, nome de cada uma no seu momento, mesma música e estilo. Cortei o trecho ininteligível da Carina e a tentativa interrompida da Cláudia. Os vídeos `04_Carina` e `05_Claudia` mantêm-se separados.
+
+---
+
+## 12_Pergunta_que_nunca_te_fizeram.mp4 (1 min 52 s)
+Cadeia "qual é a pergunta que nunca te fizeram?" — a pergunta de cada pessoa é a pergunta que a seguinte responde. Fontes: os 5 vídeos de Tele Alex (02 a 06), reordenados pela cadeia:
+
+| Ordem | Fonte | Quem | O que acontece |
+|---|---|---|---|
+| 1 | Tele Alex 02 | Pessoa 1 (blazer azul) | Pergunta de abertura: "Como é que motivamos jovens…?" (não responde a nenhuma pergunta anterior → **primeira**) |
+| 2 | Tele Alex 03 | Pessoa 1 | "Qual é a pergunta que nunca te fizeram?" → pergunta: "O que gostaria de ver feito nos próximos 5 anos no movimento associativo juvenil?" |
+| 3 | Tele Alex 06 | Pessoa 2 (boné verde) | Responde à pergunta da Pessoa 1 |
+| 4 | Tele Alex 05 | Pessoa 2 | "Qual é a pergunta que nunca te fizeram?" → pergunta: "Será que ser jovem vai até aos 30 ou 35?" |
+| 5 | Tele Alex 04 | Pessoa 3 (preto) | Responde "O que é ser jovem?" (não lhe voltam a perguntar a pergunta → **última**) |
+
+Mesmo estilo: legendas com a palavra dita a vermelho, áudio limpo (RNNoise) e imagem estabilizada, música baixa, níveis de voz igualados.
