@@ -1,9 +1,9 @@
 # Vídeos editados
 
-## 25_Fernando_Ingles_Reel.mp4 (1 min 07 s, 1080×1920, Instagram Reels)
+## 25_Fernando_Ingles_Reel.mp4 (1 min 07 s; a alternativa 25b tem 1 min 03 s, 1080×1920, Instagram Reels)
 Fonte: `videos-limpos/25_Entrevista_Fernando_Ingles.mp4` (2 min 20 s), com áudio limpo e imagem estabilizada.
 
-- **Abertura:** o entrevistador diz só "Hello guys, I'm here with…" e corta-se logo para a pergunta e para o Fernando; o cartão "Fernando · President of FNAJ" identifica-o. (O Fernando nunca diz "I'm the President" na gravação.)
+- **Abertura (sem a pergunta "Can you tell us what you do?"):** o apresentador diz só "Hello guys, I'm here with the National Federation President of the Youth." e corta-se para a resposta do Fernando (começa em "the National Federation…", sem "Yes"). Versão alternativa `25b_…abertura_curta`: o apresentador diz apenas "Hello guys, I'm here with…" e corta logo para o Fernando. O cartão "Fernando · President of FNAJ" aparece quando ele fala. (Na gravação o Fernando não diz "I'm the president".)
 - **Nome nas perguntas:** cortado de todas ("Fernando, can you tell us…" passa a "Can you tell us…"). O final fica em "Thank you" sem "Fernando".
 - **Erros e hesitações cortados:** o engasgo "in all, among all the country", pausas e hesitações na resposta sobre desinformação, "Um" do entrevistador, silêncios (pausas > 0,3 s) e as frases confusas ("that's why we make that sense…", "we do and we developed…").
 - **Legendas:** gravadas no vídeo, palavra dita a vermelho, na zona central. Correções: Clubs → Associations, Eurodeputies → MEPs.
