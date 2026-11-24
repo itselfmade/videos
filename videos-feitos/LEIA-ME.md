@@ -1,6 +1,8 @@
 # Vídeos finais (todos na vertical 9:16)
 
-Numeração = ordem de gravação (assumida: Tele Pedro → Tele Alex por hora do ficheiro → câmara pela ordem do vídeo de 54 min). O nome é *tipo de vídeo + número*; quando souberes o nome do entrevistado diz-me e renomeio.
+**Como foram separados:** o ficheiro `AVCHD.mp4` (54 min) traz 29 *capítulos*, um por gravação original da câmara. Usei esses limites reais e só juntei capítulos seguidos quando a fala continua de um para o outro (clipes de 1–5 s sem conteúdo, retomas imediatas, a mesma entrevista interrompida).
+
+Numeração = ordem de gravação (assumida: Tele Pedro → Tele Alex por hora do ficheiro → câmara pela ordem do vídeo grande). Os nomes de pessoas (Carina, Claudia, Fernando) vêm do que se ouve nas gravações.
 
 | Ficheiro | Origem | Duração |
 |---|---|---|
@@ -10,23 +12,28 @@ Numeração = ordem de gravação (assumida: Tele Pedro → Tele Alex por hora d
 | 04_Entrevista.mp4 | telemóvel (TeleAlex_78158634.MP4) | 00:00:36.3 |
 | 05_Entrevista.mp4 | telemóvel (TeleAlex_3baef9c6.MP4) | 00:00:29.5 |
 | 06_Entrevista.mp4 | telemóvel (TeleAlex_f8330ab7.MP4) | 00:00:23.8 |
-| 07_Estudio.mp4 | camera parte 1 (0s-1558s) | 00:25:58.0 |
-| 08_Detalhe.mp4 | camera parte 2 (1558s-1574s) | 00:00:16.1 |
-| 09_Entrevista.mp4 | camera parte 3 (1574s-1597s) | 00:00:22.9 |
-| 10_Entrevista.mp4 | camera parte 5 (1597s-1659s) | 00:01:01.9 |
-| 11_Entrevista.mp4 | camera parte 6 (1659s-1732s) | 00:01:13.4 |
-| 12_Entrevista.mp4 | camera parte 7 (1732s-1807s) | 00:01:14.3 |
-| 13_Entrevista.mp4 | camera parte 8 (1807s-1820s) | 00:00:13.1 |
-| 14_Bar.mp4 | camera parte 9 (1820s-2523s) | 00:11:43.7 |
-| 15_Bar.mp4 | camera parte 10 (2523s-2894s) | 00:06:10.1 |
-| 16_Detalhe.mp4 | camera parte 11 (2894s-2913s) | 00:00:19.2 |
-| 17_Entrevista.mp4 | camera parte 12 (2913s-2974s) | 00:01:01.4 |
-| 18_Entrevista.mp4 | camera parte 13 (2974s-2999s) | 00:00:24.9 |
-| 19_Entrevista.mp4 | camera parte 14 (2999s-3029s) | 00:00:29.7 |
-| 20_Entrevista.mp4 | camera parte 15 (3029s-3063s) | 00:00:33.9 |
-| 21_Entrevista.mp4 | camera parte 16 (3063s-3072s) | 00:00:09.0 |
-| 22_Entrevista.mp4 | camera parte 17 (3072s-3108s) | 00:00:36.6 |
-| 23_Entrevista.mp4 | camera parte 18 (3108s-3203s) | 00:01:34.8 |
-| 24_Entrevista.mp4 | camera parte 19 (3203s-3294s) | 00:01:31.5 |
+| 07_Estudio.mp4 | camara cap 1-2 (0:00.0-1:19.7) | 00:01:19.7 |
+| 08_Estudio.mp4 | camara cap 3 (1:19.7-5:26.7) | 00:04:07.0 |
+| 09_Estudio.mp4 | camara cap 4 (5:26.7-13:13.6) | 00:07:47.0 |
+| 10_Estudio.mp4 | camara cap 5 (13:13.6-18:08.5) | 00:04:54.8 |
+| 11_Estudio.mp4 | camara cap 6 (18:08.5-23:38.7) | 00:05:30.2 |
+| 12_Estudio.mp4 | camara cap 7 (23:38.7-25:58.1) | 00:02:19.4 |
+| 13_Teste.mp4 | camara cap 8 (25:58.1-26:14.7) | 00:00:16.6 |
+| 14_Entrevista.mp4 | camara cap 9-11 (26:14.7-26:37.1) | 00:00:22.4 |
+| 15_Entrevista.mp4 | camara cap 12 (26:37.1-27:33.8) | 00:00:56.7 |
+| 16_Entrevista.mp4 | camara cap 13-14 (27:33.8-28:22.7) | 00:00:48.9 |
+| 17_Vox-Pop.mp4 | camara cap 15-17 (28:22.7-29:06.4) | 00:00:43.7 |
+| 18_Entrevista.mp4 | camara cap 18 (29:06.4-30:06.7) | 00:01:00.3 |
+| 19_Vox-Pop.mp4 | camara cap 19 (30:06.7-30:19.8) | 00:00:13.0 |
+| 20_Bar.mp4 | camara cap 20 (30:19.8-48:12.0) | 00:17:52.3 |
+| 21_Detalhe.mp4 | camara cap 21-22 (48:12.0-48:32.8) | 00:00:20.8 |
+| 22_Entrevista_Carina.mp4 | camara cap 23-25 (48:32.8-49:59.7) | 00:01:26.9 |
+| 23_Entrevista_Claudia_take1.mp4 | camara cap 26 (49:59.7-50:28.8) | 00:00:29.1 |
+| 24_Entrevista_Claudia.mp4 | camara cap 27 (50:28.8-51:02.6) | 00:00:33.8 |
+| 25_Entrevista_Fernando_Ingles.mp4 | camara cap 28 (51:02.6-53:23.0) | 00:02:20.4 |
+| 26_Entrevista_Fernando_FNAJ.mp4 | camara cap 29 (53:23.0-54:54.4) | 00:01:31.4 |
 
-Notas: clipes de evento rodados 90° no original; estúdio cortado ao centro; bar com fundo desfocado. Original `AVCHD.mp4` (2,53 GB) não cabe no Git LFS (máx. 2 GB por ficheiro).
+Notas:
+- `23_Entrevista_Claudia_take1` é uma tentativa interrompida; `24_Entrevista_Claudia` é a repetição.
+- Estúdio cortado ao centro para caber na vertical; bar com fundo desfocado; clipes de evento rodados 90°.
+- O original `AVCHD.mp4` (2,53 GB) não cabe no Git LFS (máx. 2 GB por ficheiro).
