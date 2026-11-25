@@ -64,3 +64,4 @@ Mesmo estilo: legendas com a palavra dita a vermelho, áudio limpo (RNNoise), im
 ## 06b_Fernando_FNAJ_PT_v2.mp4 (1 min 00 s, 1080×1920, Instagram Reels)
 Fonte: `videos-limpos/26_Entrevista_Fernando_FNAJ.mp4`. Mesmo estilo do reel em inglês: cortes de silêncios e hesitações, cortes colocados no fim real de cada palavra, legendas com a palavra dita a vermelho, música ambiente baixinha, áudio limpo e imagem estabilizada, 0,5 s de silêncio no fim.
 - O apresentador diz só "Olá, estamos aqui com o Presidente da FNAJ" e as perguntas, sem tratar o Fernando pelo nome; o nome aparece uma única vez, no "Ok, obrigado, Fernando" final. O cartão "Fernando · Presidente da FNAJ" aparece quando ele responde. (Na gravação o Fernando não diz "eu sou o presidente".)
+- **v3:** removido o engasgo do Fernando em "…mas seja um Portugal do litoral [engasgo] e do interior", que passa a sair seguido: "mas seja um Portugal do litoral e do interior".
