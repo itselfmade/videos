@@ -40,7 +40,7 @@ Ficaram de fora, por terem a pergunta "qual é a pergunta que nunca te fizeram":
 ---
 
 ## 11_Carina_Claudia_e_Pedro.mp4 (1 min 44 s)
-Junta as entrevistas sobre "como é que o associativismo impacta os jovens" num só vídeo: título de abertura, pergunta, resposta da Cláudia (pessoal e cívico), da Carina (visão mais ampla) e do **Pedro, professor** (capacidades práticas e ligação ao meio rural), no fim. Níveis de voz igualados, nome de cada pessoa no seu momento, mesma música e estilo. Cortei o trecho ininteligível da Carina e o final cortado do Pedro. Os vídeos `04_Carina` e `05_Claudia` mantêm-se separados. Original do Pedro em `videos-brutos/`.
+Junta as entrevistas sobre "como é que o associativismo impacta os jovens" num só vídeo: título de abertura, pergunta, resposta da Cláudia (pessoal e cívico), da Carina (visão mais ampla) e do **Pedro, professor** (capacidades práticas e ligação ao meio rural). **Ordem atual: Pedro primeiro**, depois Cláudia e Carina. Níveis de voz igualados, nome de cada pessoa no seu momento, mesma música e estilo. Cortei o trecho ininteligível da Carina e o final cortado do Pedro. Os vídeos `04_Carina` e `05_Claudia` mantêm-se separados. Original do Pedro em `videos-brutos/`.
 
 ---
 
