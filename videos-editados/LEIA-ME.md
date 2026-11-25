@@ -24,7 +24,7 @@ videos-editados/
 
 Ficaram de fora, por terem a pergunta "qual é a pergunta que nunca te fizeram": Tele Alex 03 e 05.
 
-**06_Fernando_FNAJ_PT:** o apresentador diz só "Olá, estamos aqui com o Presidente da FNAJ" e as perguntas, sem tratar o Fernando pelo nome (aparece só no "Ok, obrigado, Fernando" final). Engasgo em "…um Portugal do litoral e do interior" removido. Na gravação o Fernando não diz "eu sou o presidente". A versão anterior (cortes mais soltos) está em `versoes-anteriores/`.
+**06_Fernando_FNAJ_PT:** cartão "Fernando Vieira · Presidente da FNAJ". o apresentador diz só "Olá, estamos aqui com o Presidente da FNAJ" e as perguntas, sem tratar o Fernando pelo nome (aparece só no "Ok, obrigado, Fernando" final). Engasgo em "…um Portugal do litoral e do interior" removido. Na gravação o Fernando não diz "eu sou o presidente". A versão anterior (cortes mais soltos) está em `versoes-anteriores/`.
 
 ## montagens/
 - **07_Vox_Pop** — "Numa palavra", 2 takes juntos (17 + 19).
@@ -43,7 +43,7 @@ Ficaram de fora, por terem a pergunta "qual é a pergunta que nunca te fizeram":
 | 8 | Mulher de camisola preta | Responde "O que é ser jovem?" (sem silêncios nem hesitações) — **última** |
 
 ## ingles/
-**13_Fernando_Ingles_Reel** (1 min 07 s) — fonte `25_Entrevista_Fernando_Ingles`. O apresentador diz só "Hello guys, I'm here with the National Federation President" e corta-se para a resposta do Fernando; "Fernando" só no "Thank you, Fernando" final (completo). Perguntas sem o nome, sem "Can you tell us…". Cartão "Fernando · President of FNAJ". Correções de legenda: Clubs → Associations, Eurodeputies → MEPs. Na gravação o Fernando não diz "I'm the president".
+**13_Fernando_Ingles_Reel** (1 min 07 s) — fonte `25_Entrevista_Fernando_Ingles`. O apresentador diz só "Hello guys, I'm here with the National Federation President" e corta-se para a resposta do Fernando; "Fernando" só no "Thank you, Fernando" final (completo). Perguntas sem o nome, sem "Can you tell us…". Cartão "Fernando Vieira · President of FNAJ". Correções de legenda: Clubs → Associations, Eurodeputies → MEPs. Na gravação o Fernando não diz "I'm the president".
 
 ## Melhoria de áudio e imagem (todos os vídeos)
 - **Ruído de fundo:** RNNoise (`cb.rnnn`, 90 % do efeito), mantendo o timbre da voz. Vozes de outras pessoas ao fundo não são removidas.

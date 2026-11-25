@@ -18,7 +18,7 @@ SPECS={
 'Claudia':dict(name='Reel_Claudia',sources={'a':src('24_Entrevista_Claudia')},lower_third=('Cláudia','Youth Dream'),lt_after=['olá','eu','sou','a','cláudia'],
  fixes=[(['enaj22'],['ENAJ','22'])],
  cuts=[cut(['então','estamos'],['youth','dream']),cut(['ok','e','como'],['para','os','jovens']),cut(['obrigado'],['obrigado'])]),
-'Fernando_FNAJ_PT':dict(name='Reel_Fernando_FNAJ_PT',sources={'a':src('26_Entrevista_Fernando_FNAJ')},lower_third=('Fernando','Presidente da FNAJ'),lt_after=['sim','a','fnaj'],
+'Fernando_FNAJ_PT':dict(name='Reel_Fernando_FNAJ_PT',sources={'a':src('26_Entrevista_Fernando_FNAJ')},lower_third=('Fernando Vieira','Presidente da FNAJ'),lt_after=['sim','a','fnaj'],
  fixes=[(['do','sítio','juvenil'],['do','associativismo','juvenil']),(['federações','estritais'],['federações','distritais'])],
  cuts=[cut(['olá','estamos','aqui'],['o','fernando']),cut(['e','fernando'],['a','nível','nacional']),cut(['sim','a','fnaj'],['a','nível','local']),
        cut(['o','nosso','trabalho','é','mesmo'],['e','na','federação','nacional']),cut(['em','cooperação'],['voz','de','decisão']),
@@ -76,7 +76,7 @@ SPECS['Cadeia3']=dict(name='Reel_Pergunta_que_nunca_te_fizeram_v3',
 
 SPECS['FernandoEN']=dict(name='Reel_Fernando_Ingles_v6',sources={'a':{'words':'/tmp/tx4/25_EN.json','video':'/tmp/final_pro/25_Entrevista_Fernando_Ingles.mp4','lowres':False}},
  pause=0.3,tail_pad=0.03,
- lower_third=('Fernando','President of FNAJ'),lt_after=['yes','the','national'],
+ lower_third=('Fernando Vieira','President of FNAJ'),lt_after=['yes','the','national'],
  fixes=[(['clubs'],['Associations']),(['eurodeputies'],['MEPs,'])],
  cuts=[cut(['hello','guys'],['here','with']),cut(['can','you','tell','us'],['in','the','organization']),
        cut(['yes','the','national'],['associativism']),cut(['among','all','the','country'],['among','all','the','country']),
@@ -87,7 +87,7 @@ SPECS['FernandoEN']=dict(name='Reel_Fernando_Ingles_v6',sources={'a':{'words':'/
        {**cut(['thank','you'],['thank','you']),'freeze_after':138.40}])
 
 _base=dict(sources={'a':{'words':'/tmp/tx4/25_EN.json','video':'/tmp/final_pro/25_Entrevista_Fernando_Ingles.mp4','lowres':False}},
- pause=0.3,tail_pad=0.03,lower_third=('Fernando','President of FNAJ'),lt_after=['of','youth','associations','of'],
+ pause=0.3,tail_pad=0.03,lower_third=('Fernando Vieira','President of FNAJ'),lt_after=['of','youth','associations','of'],
  fixes=[(['clubs'],['Associations']),(['eurodeputies'],['MEPs,'])])
 _rest=[cut(['the','national','federation','of','youth'],['associativism']),cut(['among','all','the','country'],['among','all','the','country']),
        cut(['we','can','promote'],['decisionmakers']),
@@ -103,7 +103,7 @@ SPECS['FernandoEN_C']=dict(_base,name='Reel_Fernando_Ingles_v8',snap_end=True,ta
  cuts=[{**cut(['hello','guys'],['president']),'end_at':4.62}]+[_rest[0],{**_rest[1],'end_at':21.98}]+_rest[2:-1]+[{**cut(['thank','you'],['fernand']),'freeze_after':138.40}])
 
 SPECS['Fernando_FNAJ_PT_v2']=dict(name='Reel_Fernando_FNAJ_PT_v2',sources={'a':src('26_Entrevista_Fernando_FNAJ')},
- pause=0.3,tail_pad=0.10,snap_end=True,end_fix={5.36:5.47,88.98:89.12},lower_third=('Fernando','Presidente da FNAJ'),lt_after=['a','fnaj'],
+ pause=0.3,tail_pad=0.10,snap_end=True,end_fix={5.36:5.47,88.98:89.12},lower_third=('Fernando Vieira','Presidente da FNAJ'),lt_after=['a','fnaj'],
  fixes=[(['do','sítio','juvenil'],['do','associativismo','juvenil']),(['federações','estritais'],['federações','distritais']),(['conseguiasme'],['Conseguias-me']),(['em','cooperação'],['Em','cooperação'])],
  cuts=[cut(['olá','estamos','aqui'],['presidente','da','fnaj']),cut(['conseguiasme'],['a','nível','nacional']),cut(['a','fnaj'],['a','nível','local']),
        cut(['o','nosso','trabalho','é','mesmo'],['e','na','federação','nacional']),cut(['em','cooperação'],['voz','de','decisão']),
