@@ -59,3 +59,8 @@ Cadeia completa "qual é a pergunta que nunca te fizeram?" — a pergunta de cad
 | 8 | Mulher de camisola preta | Responde "O que é ser jovem?" (sem silêncios nem hesitações) (não lhe voltam a perguntar a pergunta → **última**) |
 
 Mesmo estilo: legendas com a palavra dita a vermelho, áudio limpo (RNNoise), imagem estabilizada, música baixa, níveis de voz igualados. Originais dos 3 vídeos novos em `videos-brutos/`.
+
+
+## 06b_Fernando_FNAJ_PT_v2.mp4 (1 min 00 s, 1080×1920, Instagram Reels)
+Fonte: `videos-limpos/26_Entrevista_Fernando_FNAJ.mp4`. Mesmo estilo do reel em inglês: cortes de silêncios e hesitações, cortes colocados no fim real de cada palavra, legendas com a palavra dita a vermelho, música ambiente baixinha, áudio limpo e imagem estabilizada, 0,5 s de silêncio no fim.
+- O apresentador diz só "Olá, estamos aqui com o Presidente da FNAJ" e as perguntas, sem tratar o Fernando pelo nome; o nome aparece uma única vez, no "Ok, obrigado, Fernando" final. O cartão "Fernando · Presidente da FNAJ" aparece quando ele responde. (Na gravação o Fernando não diz "eu sou o presidente".)
