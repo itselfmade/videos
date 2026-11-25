@@ -4,6 +4,7 @@
 Fonte: `videos-limpos/25_Entrevista_Fernando_Ingles.mp4` (2 min 20 s), com áudio limpo e imagem estabilizada.
 
 - **Abertura (sem a pergunta "Can you tell us what you do?"):** o apresentador diz só "Hello guys, I'm here with the National Federation President." e corta-se para a resposta do Fernando (começa em "the National Federation…", sem "Yes"). O cartão "Fernando · President of FNAJ" aparece quando ele fala. (Na gravação o Fernando não diz "I'm the president".)
+- **v10:** "…we have also here in Portugal." deixa de ser cortado e termina a palavra "Portugal".
 - **v9:** a introdução acaba em "President" (sem "of the Youth") e a segunda frase do Fernando vai até ao fim ("among all the country").
 - **v8:** os cortes no fim de cada frase do Fernando passaram a ser colocados no fim real da palavra (sem cortar a última sílaba) e o final mantém o "Thank you, Fernando." completo, seguido de 0,5 s de silêncio. A versão alternativa 25b foi removida.
 - **Nome nas perguntas:** cortado de todas ("Fernando, can you tell us…" passa a "Can you tell us…"). O final fica em "Thank you" sem "Fernando".
