@@ -20,7 +20,7 @@ def norm(w): return re.sub(r'[^\wçãõáéíóúâêô-]','',w.lower())
 SEGS=[
  dict(id='A1',clip='22_Entrevista_Carina',ranges=[(0.3,2.0),(3.7,8.0)],label='Teste de som',sfx=[('end','rimshot')]),
  dict(id='A2',clip='25_Entrevista_Fernando_Ingles',ranges=[(5.8,10.3)],label='Fernando… Fernand… Fernand…',sfx=[(7.9,'pop'),(9.0,'pop')]),
- dict(id='A2s',clip='25_Entrevista_Fernando_Ingles',ranges=[(10.3,12.4)],slowmo=4.0,label='Câmara lenta: o microfone',lyrics=[('Era só Jajão',0.15,1.9),('Quando tu dizias para pedir a tua mão',2.0,3.95)],sfx=[]),
+ dict(id='A2s',clip='25_Entrevista_Fernando_Ingles',ranges=[(10.3,12.4)],slowmo=4.0,label='Câmara lenta: o microfone',music='/tmp/bl/jajao.mp3',music_start=0,lyric_words=[('Era',0.05,0.45),('só',0.45,0.8),('Jajão',0.8,1.34),('Quando',1.36,1.7),('tu',1.7,1.9),('dizias',1.9,2.38),('pra',2.38,2.58),('pedir',2.58,2.92),('a',2.92,3.12),('tua',3.12,3.36),('mão',3.36,3.95)],lyric_lines=[3,8],sfx=[]),
  dict(id='A3',clip='23_Entrevista_Claudia_take1',ranges=[(21.3,26.6),(26.6,28.2,{'trig':True}),(28.2,29.6)],bw=True,label='Silêncio constrangedor',sfx=[(25.0,'trombone'),(26.6,'boom'),('end','rimshot')]),
  dict(id='P1',clip='22_Entrevista_Carina',ranges=[(17.1,23.3)],label='"Boa, excelente pergunta" (1)',sfx=[(20.7,'ding')]),
  dict(id='P2',clip='05_Entrevista',ranges=[(26.7,29.4)],label='"É muito boa pergunta" (2)',sfx=[(28.0,'ding')]),
@@ -90,11 +90,20 @@ def main():
         if sg.get('slowmo'):
             r=sg['ranges'][0]; D=sg['slowmo']; f=f"{W}/seg/{sg['id']}.mp4"
             render_video(path,r[0],r[1]-r[0],f,slow=D/(r[1]-r[0]),interp=True)
-            mraw=subprocess.run(['ffmpeg','-nostdin','-v','error','-ss',str(MUSIC_START),'-t',str(D),'-i',MUSIC,'-vn','-ac','1','-ar',str(SR),'-f','f32le','-'],capture_output=True,check=True).stdout
+            mraw=subprocess.run(['ffmpeg','-nostdin','-v','error','-ss',str(sg.get('music_start',MUSIC_START)),'-t',str(D),'-i',sg.get('music',MUSIC),'-vn','-ac','1','-ar',str(SR),'-f','f32le','-'],capture_output=True,check=True).stdout
             xa=np.frombuffer(mraw,dtype='f4').copy(); xa=np.pad(xa,(0,max(0,int(D*SR)-len(xa))))[:int(D*SR)]
-            xa*=0.9/max(1e-9,np.abs(xa).max())*0.5; xa[:int(0.2*SR)]*=np.linspace(0,1,int(0.2*SR)); xa[-int(0.3*SR):]*=np.linspace(1,0,int(0.3*SR))
+            xa*=rms_gain(xa,-18.0) if sg.get('lyric_words') else 0.45/max(1e-9,np.abs(xa).max()); xa=np.clip(xa,-0.95,0.95); xa[:int(0.02*SR)]*=np.linspace(0,1,int(0.02*SR)); xa[-int(0.05*SR):]*=np.linspace(1,0,int(0.05*SR))
             caps=[]
-            for txt,a0,b0 in sg['lyrics']:
+            if sg.get('lyric_words'):
+                lw=sg['lyric_words']; idx=0
+                for ln in sg['lyric_lines']:
+                    grp=lw[idx:idx+ln]; idx+=ln
+                    for k,(w_,a0,b0) in enumerate(grp):
+                        end=grp[k+1][1] if k+1<len(grp) else b0
+                        parts=['{\\c&H00D7FF&}'+g[0]+'{\\c&HFFFFFF&}' if q==k else g[0] for q,g in enumerate(grp)]
+                        lines=[' '.join(parts[:4]),' '.join(parts[4:])] if ln>4 else [' '.join(parts)]
+                        caps.append((a0,end,'\\N'.join([l for l in lines if l])))
+            for txt,a0,b0 in (sg.get('lyrics') or []):
                 wsx=txt.split(); n=len(wsx); step=(b0-a0)/n
                 for k in range(n):
                     parts=['{\\c&H00D7FF&}'+w_+'{\\c&HFFFFFF&}' if q==k else w_ for q,w_ in enumerate(wsx)]
