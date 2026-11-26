@@ -29,7 +29,7 @@ Ficaram de fora, por terem a pergunta "qual é a pergunta que nunca te fizeram":
 ## montagens/
 - **07_Vox_Pop** — "Numa palavra", 2 takes juntos (17 + 19).
 - **11_Carina_Claudia_e_Pedro** (1 min 44 s) — "como é que o associativismo impacta os jovens": **Pedro (professor) primeiro**, depois Cláudia e Carina. Níveis de voz igualados, título de abertura, nome de cada pessoa no seu momento. Originais do Pedro em `videos-brutos/`.
-- **14_Bloopers** (2 min 29 s) — enganos, repetições, travagens, testes de som e conversas fora do guião. Cenas em preto e branco, "bis" (repetição em câmara lenta) dos melhores momentos, efeitos sonoros (sintetizados, sem direitos), palavrões tapados com *bleep* e legendas com "****". Fontes: `videos-limpos/` 07–13 (estúdio), 22, 23 e 25. Conversas internas sobre o programa de mentorias (valores, motivações) **ficaram de fora de propósito**.
+- **14_Bloopers** (1 min 19 s) — só material do ENAJ (nada do escritório da Selfmade): enganos, repetições e momentos fora do guião. Câmara lenta de 4 s no Fernando a tentar pegar o microfone (com a letra "Era só Jajão / Quando tu dizias para pedir a tua mão"), "NOVAS" com zoom e efeito *triggered* na Cláudia, "boa pergunta" ×3, estática de TV + "piii" entre cenas, preto e branco, "bis" em câmara lenta e efeitos sonoros sintetizados. A música dessa cena ainda é um fundo provisório: falta o ficheiro da canção.
 - **12_Pergunta_que_nunca_te_fizeram** (2 min 21 s) — cadeia "qual é a pergunta que nunca te fizeram?": a pergunta de cada pessoa é a que a seguinte responde.
 
 | Ordem | Pessoa | O que acontece |
