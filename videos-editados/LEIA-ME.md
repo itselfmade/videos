@@ -5,10 +5,10 @@ Todos os vídeos estão em 1080×1920 (9:16, Instagram Reels), com legendas grav
 ## Estrutura
 ```
 videos-editados/
-├─ entrevistas-pt/      01–06, 08–10  (uma pessoa/entidade por vídeo)
-├─ montagens/           07, 11, 12, 14 (vários vídeos juntos; 14 = bloopers)
+├─ entrevistas-pt/      01, 02, 03, 06, 08–10  (uma pessoa/entidade por vídeo)
+├─ montagens/           07, 11, 12 (vários vídeos juntos)
 ├─ ingles/              13            (entrevista em inglês)
-└─ versoes-anteriores/  versões substituídas, só para consulta
+(só vídeos finais. Os bloopers estão à parte, em ../bloopers/)
 ```
 
 ## entrevistas-pt/
@@ -17,20 +17,16 @@ videos-editados/
 | 01_Agencia_Nacional_Erasmus | Agência Nacional Erasmus+ | 15 |
 | 02_IPDJ | IPDJ | 16 |
 | 03_FAJUB | FAJUB (federação distrital) | 18 |
-| 04_Carina | Carina (dois takes seguidos juntos) | 22 |
-| 05_Claudia | Cláudia, Youth Dream (usada a repetição completa; a 1.ª tentativa ficou de fora) | 24 (e 23) |
 | 06_Fernando_FNAJ_PT | Fernando, presidente da FNAJ — ver nota abaixo | 26 |
 | 08–10_Entrevista_Solta | Respostas curtas de Tele Alex (480p originais, ampliadas) | 02, 04, 06 de Tele Alex |
 
 Ficaram de fora, por terem a pergunta "qual é a pergunta que nunca te fizeram": Tele Alex 03 e 05.
 
-**06_Fernando_FNAJ_PT:** cartão "Fernando Vieira · Presidente da FNAJ". o apresentador diz só "Olá, estamos aqui com o Presidente da FNAJ" e as perguntas, sem tratar o Fernando pelo nome (aparece só no "Ok, obrigado, Fernando" final). Engasgo em "…um Portugal do litoral e do interior" removido. Na gravação o Fernando não diz "eu sou o presidente". A versão anterior (cortes mais soltos) está em `versoes-anteriores/`.
+**06_Fernando_FNAJ_PT:** cartão "Fernando Vieira · Presidente da FNAJ". o apresentador diz só "Olá, estamos aqui com o Presidente da FNAJ" e as perguntas, sem tratar o Fernando pelo nome (aparece só no "Ok, obrigado, Fernando" final). Engasgo em "…um Portugal do litoral e do interior" removido. Na gravação o Fernando não diz "eu sou o presidente". 
 
 ## montagens/
 - **07_Vox_Pop** — "Numa palavra", 2 takes juntos (17 + 19).
 - **11_Carina_Claudia_e_Pedro** (1 min 44 s) — "como é que o associativismo impacta os jovens": **Pedro (professor) primeiro**, depois Cláudia e Carina. Níveis de voz igualados, título de abertura, nome de cada pessoa no seu momento. Originais do Pedro em `videos-brutos/`.
-- **14_Bloopers** (1 min 19 s) — só material do ENAJ (nada do escritório da Selfmade): enganos, repetições e momentos fora do guião. Câmara lenta de 4 s no Fernando a tentar pegar o microfone (com a letra "Era só Jajão / Quando tu dizias para pedir a tua mão"), "NOVAS" com zoom e efeito *triggered* na Cláudia, "boa pergunta" ×3, estática de TV + "piii" entre cenas, preto e branco, "bis" em câmara lenta e efeitos sonoros sintetizados. A música dessa cena é o excerto da canção enviado pela equipa (`musica/jajao_excerto.mp3`).
-- **14b_Bloopers_Jajao_corte** (4,5 s) — só a cena "Era só Jajão", câmara lenta do Fernando a pegar no microfone, com a música e as letras.
 - **12_Pergunta_que_nunca_te_fizeram** (2 min 21 s) — cadeia "qual é a pergunta que nunca te fizeram?": a pergunta de cada pessoa é a que a seguinte responde.
 
 | Ordem | Pessoa | O que acontece |
@@ -57,3 +53,5 @@ As legendas eram a vermelho; passaram a **amarelo** em todos os vídeos (só mud
 
 ## Ferramentas
 O código que gera estes vídeos está em `../ferramentas/` (`reel_engine.py` motor de edição, `specs.py` cortes de cada vídeo, `refinal.py` repete só a passagem final, `music.py` música).
+
+> Carina e Cláudia aparecem só na montagem `11_Carina_Claudia_e_Pedro` (com o Pedro), sem vídeos separados. Os bloopers estão em `../bloopers/` e não contam como vídeos finais.
