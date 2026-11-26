@@ -5,7 +5,7 @@ Todos os vídeos estão em 1080×1920 (9:16, Instagram Reels), com legendas grav
 ## Estrutura
 ```
 videos-editados/
-├─ entrevistas-pt/      01, 02, 03, 06, 08–10  (uma pessoa/entidade por vídeo)
+├─ entrevistas-pt/      01, 02, 03, 06  (uma pessoa/entidade por vídeo)
 ├─ montagens/           07, 11, 12 (vários vídeos juntos)
 ├─ ingles/              13            (entrevista em inglês)
 (só vídeos finais. Os bloopers estão à parte, em ../bloopers/)
@@ -18,9 +18,8 @@ videos-editados/
 | 02_IPDJ | IPDJ | 16 |
 | 03_FAJUB | FAJUB (federação distrital) | 18 |
 | 06_Fernando_FNAJ_PT | Fernando, presidente da FNAJ — ver nota abaixo | 26 |
-| 08–10_Entrevista_Solta | Respostas curtas de Tele Alex (480p originais, ampliadas) | 02, 04, 06 de Tele Alex |
 
-Ficaram de fora, por terem a pergunta "qual é a pergunta que nunca te fizeram": Tele Alex 03 e 05.
+As antigas "entrevistas soltas" (Tele Alex 02, 04 e 06) eram respostas que já fazem parte da cadeia `12_Pergunta_que_nunca_te_fizeram`, por isso foram retiradas como vídeos separados.
 
 **06_Fernando_FNAJ_PT:** cartão "Fernando Vieira · Presidente da FNAJ". o apresentador diz só "Olá, estamos aqui com o Presidente da FNAJ" e as perguntas, sem tratar o Fernando pelo nome (aparece só no "Ok, obrigado, Fernando" final). Engasgo em "…um Portugal do litoral e do interior" removido. Na gravação o Fernando não diz "eu sou o presidente". 
 
